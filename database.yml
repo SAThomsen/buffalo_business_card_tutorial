@@ -1,8 +1,8 @@
 development:
   dialect: postgres
-  database: slidetell_development
-  user: postgres
-  password: postgres
+  database: buffalo_dev
+  user: buffalo
+  password: s1379413
   host: 127.0.0.1
   pool: 5
 
