@@ -1,6 +1,7 @@
 package actions
 
 import (
+	"github.com/gobuffalo/buffalo"
 	"github.com/gobuffalo/buffalo/render"
 	"github.com/gobuffalo/packr"
 )
@@ -19,9 +20,12 @@ func init() {
 
 		// Add template helpers here:
 		Helpers: render.Helpers{
-		// uncomment for non-Bootstrap form helpers:
-		// "form":     plush.FormHelper,
-		// "form_for": plush.FormForHelper,
+			// uncomment for non-Bootstrap form helpers:
+			// "form":     plush.FormHelper,
+			// "form_for": plush.FormForHelper,
+			"isCurrentPathName": func(current buffalo.RouteInfo, name string) bool {
+				return current.PathName == name
+			},
 		},
 	})
 }
