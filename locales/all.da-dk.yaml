@@ -1,0 +1,24 @@
+# all.da-dk.yaml
+- id: page-subtitle
+  translation: Mit meget personlige forretningskort
+- id: footer-prefix
+  translation: Drevet af
+
+- id: menu-home
+  translation: Hjem
+- id: menu-resume
+  translation: Resumé
+- id: menu-contact
+  translation: Kontakt
+
+- id: home-welcome
+  translation: "Velkommen til mit business kort! Her kan du lære om mig: hvem jeg er, hvad jeg laver og hvad jeg har lavet før. Du kan også kontakte mig hvis du mener det kan betale sig. Det kan det!"
+
+- id: resume-1
+  translation: "[EN] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac ultricies leo,"
+
+- id: resume-2
+  translation: "[EN] Nam porta mattis suscipit. Aliquam id ullamcorper nisi. Proin quis mollis ipsum."
+
+- id: contact-message
+  translation: "Jeg kan kontaktes via følgende:"

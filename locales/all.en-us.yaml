@@ -1,3 +1,26 @@
-# For more information on using i18n see: https://github.com/nicksnyder/go-i18n
-- id: welcome_greeting
-  translation: "Welcome to Buffalo (EN)"
+# all.en-us.yaml
+- id: page-subtitle
+  translation: My very personal business card.
+- id: footer-prefix
+  translation: Powered by
+
+- id: menu-home
+  translation: Home
+
+- id: menu-resume
+  translation: Resume
+
+- id: menu-contact
+  translation: Contact
+
+- id: home-welcome
+  translation: "Welcome to my business card! Here you can learn a lot about me: who am I, what do I do, what are my experiences. You can also find a way to contact me if you believe it's worth it. It is!"
+
+- id: resume-1
+  translation: "[EN] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac ultricies leo,"
+
+- id: resume-2
+  translation: "[EN] Nam porta mattis suscipit. Aliquam id ullamcorper nisi. Proin quis mollis ipsum."
+
+- id: contact-message
+  translation: "You can contact using one of the following:"

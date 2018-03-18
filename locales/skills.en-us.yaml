@@ -1,0 +1,6 @@
+- id: "skill.created.success"
+  translation: "Skill was successfully created."
+- id: "skill.updated.success"
+  translation: "Skill was successfully updated."
+- id: "skill.destroyed.success"
+  translation: "Skill was successfully destroyed."

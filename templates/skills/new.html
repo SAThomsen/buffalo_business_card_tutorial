@@ -1,0 +1,8 @@
+<div class="page-header">
+  <h1>New Skill</h1>
+</div>
+
+<%= form_for(skill, {action: skillsPath(), method: "POST"}) { %>
+  <%= partial("skills/form.html") %>
+  <a href="<%= skillsPath() %>" class="btn btn-warning" data-confirm="Are you sure?">Cancel</a>
+<% } %>
